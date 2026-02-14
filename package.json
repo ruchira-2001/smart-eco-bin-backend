@@ -2,13 +2,14 @@
   "name": "smart-eco-bin-backend",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
-  "main": "index.js",
+  "description": "Smart Eco Bin Backend API",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ruchira",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^3.0.3",
